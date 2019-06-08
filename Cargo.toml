@@ -1,0 +1,10 @@
+[package]
+name = "emu-elf-loader"
+version = "0.1.0"
+authors = ["pedrosf"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+inter = { git = "https://github.com/Pedrocasf/inter", branch = "BigEndian"}
